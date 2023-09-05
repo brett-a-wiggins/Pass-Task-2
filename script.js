@@ -95,28 +95,28 @@ async function arrayMethods(){
     crew.pop();
     document.getElementById('arrayStuff').innerHTML = "<p>crew.pop()</p>"
     await sleep(3000);
-    document.getElementById('arrayStuff').innerHTML = "<p>We now have: "+ "[" +crew + "]" +" in our list</p>"
+    document.getElementById('arrayStuff').innerHTML = "<p>We now have: "+ "[" +crew + "]" +" in our array</p>"
     await sleep(3000);
-    document.getElementById('arrayStuff').innerHTML = "<p>If we want to add an item to the end of the list we use the push() method.</p>"
+    document.getElementById('arrayStuff').innerHTML = "<p>If we want to add an item to the end of the array we use the push() method.</p>"
     await sleep(3000);
     crew.push('Kochanski');
     document.getElementById('arrayStuff').innerHTML = "<p>crew.push('Kochanski')</p>"
     await sleep(3000);
-    document.getElementById('arrayStuff').innerHTML = "<p>Our list now looks like this: " +"[" + crew +"]" +" The push() method also retuns the new length of the array.</p>"
+    document.getElementById('arrayStuff').innerHTML = "<p>Our array now looks like this: " +"[" + crew +"]" +" The push() method also retuns the new length of the array.</p>"
     await sleep(3000);
     document.getElementById('arrayStuff').innerHTML = "<p>The shift() method removes the first array element and \"shifts\" all other elements to a lower index.</p>";
     await sleep(3000);
     crew.shift();
     document.getElementById('arrayStuff').innerHTML = "<p>crew.shift()</p>";
     await sleep(3000);
-    document.getElementById('arrayStuff').innerHTML = "<p>The list now looks like this: " +"["+ crew + "]" + "</p>"
+    document.getElementById('arrayStuff').innerHTML = "<p>The array now looks like this: " +"["+ crew + "]" + "</p>"
     await sleep(3000);
     document.getElementById('arrayStuff').innerHTML = "<p>The unshift() method adds a new element to an array (at the beginning), and \"unshifts\" older elements</p>"
     crew.unshift("Cat");
     await sleep(3000);
     document.getElementById('arrayStuff').innerHTML = "<p>crew.unshift('Cat')</p>"
     await sleep(3000);
-    document.getElementById('arrayStuff').innerHTML = "<p>The list now looks like this: " + "[" +crew + "]" +"</p>";
+    document.getElementById('arrayStuff').innerHTML = "<p>The array now looks like this: " + "[" +crew + "]" +"</p>";
     await sleep(3000);
     document.getElementById('arrayStuff').innerHTML ="<p>The concat() method creates a new array by merging (concatenating) existing arrays:<p>";
     await sleep(3000);
