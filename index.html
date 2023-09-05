@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 1.2P</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <script src="script.js">
+    </script>
+    
+</head>
+<body>
+    
+    <div class="header">
+        <div id="main">
+            <img src="Red_Dwarf_logo.png" id="RedDwarf" alt="Red Dwarf Logo" onclick="defaultInfo()"/>
+        </div>
+        <h1 id="mainHeading">Red Dwarf - The Books</h1>
+      </div>
+      
+      <div class="row">
+        <div class="col-3 col-s-3 menu">
+          <ul>
+            <li onclick="infinityContent()">Infinity welcomes careful drivers.</li>
+            <li onclick="betterLife()">Better than life</li>
+            <li onclick="lastHuman()">Last Human</li>
+            <li onclick="backwards()">Backwards</li>
+          </ul>
+          
+        </div>
+      
+        <div class="col-6 col-s-9" id="content">
+          <h1 id="heading">Welcome fellow Dwarfers!</h1>
+          <p id="info">You may be familiar with the Red Dwarf TV series from the BBC. Did you also know a number of books were
+            written as well? On this page you will learn about the books that have been written.
+          </p>
+          <img src="starbug_1.png" id="StarBug" alt="StarBug 1"/>
+        </div>
+      
+        <div class="col-3 col-s-12">
+          <div class="aside">
+            <h2>Who wrote them?</h2>
+            <p>Rob Grant and Doug Naylor wrote the books</p>
+            <h2>Where can I get them?</h2>
+            <p>The books are available on Amazon and Booktopia</p>
+            <h2>How can I contact you?</h2>
+            <p>I can be reached at me@nospam.com</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer" id="footer">
+        <p id="footer_text" onclick="changeCase()">Task 1.2P Introduction to responsive web design - Brett Wiggins 222441506</p>
+      </div>
+      <div class="col-3 col-s-12">
+        <p id="clockText" onclick="myClock()">Click Here For the current time!</p>
+      </div>
+      
+      <div class="col-6 col-s-12 arrayMethods">
+        <h2>Array Methods.</h2>
+        <button id="submit" onclick="arrayMethods()">Click Me!</button>
+        <div id="arrayStuff"></div>
+      </div>
+      
+      <div class="col-3 col-s-12" >
+        <p id="dateText" onclick="myDate()">Click Here for the date!</p>
+      </div>
+      <div class="col-12 col-s-12">
+      <div class="col-3 col-s-6 numberMethods">
+        <p id="example0" onclick="toStringMethod()">The toString() method converts a number to a string. <br> 
+          <br>Click here for Number Method toString()</p>
+      </div>
+      <div class="col-3 col-s-6 numberMethods">
+        <p id="example1" onclick="toExponential()">The toExponential() method returns a string, with the number rounded and written using exponential notation. <br>
+          <br>Click here for Number Method toExponential()</p>
+      </div>
+      <div class="col-3 col-s-6 numberMethods">
+        <p id="example2" onclick="toFixedMethod()">The toFixed() method rounds a number to a given number of digits<br>
+          <br>Click here for Number Method toFixed()</p>
+      </div>
+      <div class="col-3 col-s-6 numberMethods">
+        <p id="example3" onclick="toPrecisionMethod()">The toPrecision() method returns a string, with a number written with a specified length <br>
+          <br>Click here for Number Method toPrecision()</p>
+      </div>
+      </div>
+</body>
+    
+</html>
